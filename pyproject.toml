@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "test-dependency"
-version = "0.3.0"
+version = "0.4.0"
 description = ""
 authors = ["Bradley Sherman <bradley@reef.ai>"]
 
 [tool.poetry.dependencies]
-python = "3.9.*"
+python = "^3.9"
 pytest = "^7.1.2"
 
 [tool.poetry.dev-dependencies]
